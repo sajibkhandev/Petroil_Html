@@ -11,6 +11,7 @@ common css start
 }
 .box{
     display: flex;
+    
 }
 /* =================
 common css end
@@ -156,8 +157,169 @@ country part start
 country part end
 
 ==================*/
+/* ==================
+service part start
 
-.text{
-    font-size: 60px;
-    background: red;
+==================*/
+.servicer{
+    padding-top: 28px;
 }
+
+.servicer .left {
+    width: 50%;
+    
+    
+}
+.servicer .left div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+   
+   
+   
+    
+    
+}
+
+
+.servicer .left h3{
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.servicer .left p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+}
+
+.servicer .right h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+    
+
+}
+.servicer .right button{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 14px 30px;
+    border: 2px solid white;
+    background: red;
+    border: 0;
+    
+
+}
+
+.servicer .box{
+    flex-wrap: wrap;
+}
+
+.servicer .right {
+    width: 50%;
+    
+}
+
+.servicer .right_image{
+    background-image: url("./images/serviceImg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+   
+}
+.servicer .right .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 40, 40, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* ==================
+service part end
+
+==================*/
+/* ==================
+abolut part start
+
+==================*/
+
+.about{
+    padding: 136px 0;
+}
+.about .about_image{
+   background-image: url('./images/aboutImage.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   width: 100%;
+   height: 360px;
+   position: relative;
+   overflow: hidden;
+  
+   
+
+}
+.about .about_image .overly{
+    width: 40%;
+    height: 100%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -40%;
+    top: 0;
+    transition: .3s;
+}
+.about .about_image .overly h5{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    width: 262px;
+}
+.about .about_image button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 14px 30px;
+    border: 2px solid white;
+    background: red;
+    border: 0;
+    
+    position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   transition: 0.7s;
+   
+}
+.about .about_image:hover .overly{
+    left: 0;
+
+}
+
+.about .about_image:hover button{
+    left: 75%;
+}
+
+
+/* ==================
+abolut part end
+
+==================*/
