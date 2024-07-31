@@ -13,6 +13,12 @@ common css start
     display: flex;
     
 }
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
 /* =================
 common css end
 -================== */
@@ -257,6 +263,7 @@ abolut part start
 ==================*/
 
 .about{
+    background: #F0F0F0;
     padding: 136px 0;
 }
 .about .about_image{
@@ -321,5 +328,235 @@ abolut part start
 
 /* ==================
 abolut part end
+
+==================*/
+/* ==================
+pomotion part start
+
+==================*/
+
+.pomotion{
+    background: white;
+    padding: 170px 0;
+}
+
+.pomotion .box{
+    justify-content: space-between;
+}
+/* ==================
+pomotion part end
+
+==================*/
+/* ==================
+Cart part start
+
+==================*/
+.cart-section{
+    background: #F0F0F0;
+    padding-top: 110px;
+    padding-bottom: 160px;
+}
+
+.cart-section .box{
+    justify-content: space-between;
+
+}
+.cart{
+    width: 340px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.cart .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(125, 114, 114,0.6);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    padding: 75px 40px;
+    box-sizing: border-box;
+    transition: .6s;
+
+   
+}
+.cart:hover .overly{
+    top: 0;
+}
+.cart-section .overly p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    width: 249px;
+
+}
+.cart-section .overly a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: rgba(255, 255, 255,0.5);
+    padding: 10px 20px;
+    margin-top: 52px;
+    display: inline-block;
+    
+
+}
+.cart-section h6{
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+
+}
+.cart-section h6 i{
+    padding-left: 5px;
+    
+
+}
+/* ==================
+Cart part end
+
+==================*/
+/* ==================
+contact part start
+
+==================*/
+.contact img{
+    
+    width: 100%;
+    margin: 0 auto;
+}
+.contact .contact-main{
+    background: red;
+    padding: 46px 0px;
+}
+.contact .contact-main h4{
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.contact .contact-main a{
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    
+    display: inline-block;
+}
+.contact .contact-main .box{
+  
+    align-items: center;
+    justify-content: space-between;
+}
+/* ==================
+contact part end
+
+==================*/
+/* ==================
+Footer part start
+
+==================*/
+
+.footer{
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background: rgb(0, 0, 0);
+}
+   .footer .one{
+    width: 30%;
+    
+   }
+   .footer .one ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+   }
+   .footer .one ul li{
+    color: #fff;
+    
+   }
+   .footer .one ul li i{
+    margin-right: 5px;
+    
+   }
+   .footer .two{
+    width: 20%;
+    
+   }
+   .footer .two ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+   }
+   .footer .three ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+   }
+   .footer .four ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+   }
+   .footer .two ul li{
+    color: #fff;
+    
+   }
+   .footer .three{
+    width: 20%;
+    
+   }
+   .footer .three ul li{
+    color: #fff;
+    
+   }
+   .footer .four ul li{
+    color: #fff;
+    
+   }
+   .footer .four{
+    width: 30%;
+    
+   }
+
+   .icon{
+    color: red;
+    display: flex;
+    column-gap: 40px;
+    font-size: 20px;
+    padding-top: 34px;
+   }
+
+   p{
+
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+   }
+   .Copyright{
+
+    padding: 30px;
+    background: #766b6b;
+    
+   }
+/* ==================
+Footer part end
 
 ==================*/
